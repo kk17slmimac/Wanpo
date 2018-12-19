@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E22D14433042B31582F13D40 /* Pods_Wanpo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE248CAEAE8BFF57B942BAEE /* Pods_Wanpo.framework */; };
 		F753AE1921C49D7500D0D6BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F753AE1821C49D7500D0D6BC /* AppDelegate.swift */; };
 		F753AE1B21C49D7500D0D6BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F753AE1A21C49D7500D0D6BC /* ViewController.swift */; };
 		F753AE1E21C49D7500D0D6BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F753AE1C21C49D7500D0D6BC /* Main.storyboard */; };
-		F753AE2021C49D7600D0D6BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F753AE1F21C49D7600D0D6BC /* Assets.xcassets */; };
 		F753AE2321C49D7600D0D6BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F753AE2121C49D7600D0D6BC /* LaunchScreen.storyboard */; };
+		F753AE2B21C4B05900D0D6BC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F753AE2A21C4B05900D0D6BC /* HomeViewController.swift */; };
+		F753AE2D21C4B1D100D0D6BC /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F753AE2C21C4B1D100D0D6BC /* SettingViewController.swift */; };
+		F753AE2F21C4F6B300D0D6BC /* DailyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F753AE2E21C4F6B300D0D6BC /* DailyViewController.swift */; };
+		F753AE3121C4F72500D0D6BC /* MonthlyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F753AE3021C4F72500D0D6BC /* MonthlyViewController.swift */; };
+		F753AE3321C4F7F100D0D6BC /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F753AE3221C4F7F100D0D6BC /* StartViewController.swift */; };
+		F753AE3521C4F83100D0D6BC /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F753AE3421C4F83100D0D6BC /* PostViewController.swift */; };
+		F753AE3721C4F8C600D0D6BC /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F753AE3621C4F8C600D0D6BC /* FinishViewController.swift */; };
+		F7B4604D21CA645C0028803B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7B4604C21CA645C0028803B /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		015CB17B8245C2990F7746CB /* Pods-Wanpo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wanpo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wanpo/Pods-Wanpo.debug.xcconfig"; sourceTree = "<group>"; };
+		8E517DE7D66F303B20869DB7 /* Pods-Wanpo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wanpo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wanpo/Pods-Wanpo.release.xcconfig"; sourceTree = "<group>"; };
 		F753AE1521C49D7500D0D6BC /* Wanpo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wanpo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F753AE1821C49D7500D0D6BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F753AE1A21C49D7500D0D6BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F753AE1D21C49D7500D0D6BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F753AE1F21C49D7600D0D6BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F753AE2221C49D7600D0D6BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F753AE2421C49D7600D0D6BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F753AE2A21C4B05900D0D6BC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F753AE2C21C4B1D100D0D6BC /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		F753AE2E21C4F6B300D0D6BC /* DailyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyViewController.swift; sourceTree = "<group>"; };
+		F753AE3021C4F72500D0D6BC /* MonthlyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyViewController.swift; sourceTree = "<group>"; };
+		F753AE3221C4F7F100D0D6BC /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		F753AE3421C4F83100D0D6BC /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		F753AE3621C4F8C600D0D6BC /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
+		F7B4604C21CA645C0028803B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE248CAEAE8BFF57B942BAEE /* Pods_Wanpo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wanpo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E22D14433042B31582F13D40 /* Pods_Wanpo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C73F9E174E95D8FD16E0D38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				015CB17B8245C2990F7746CB /* Pods-Wanpo.debug.xcconfig */,
+				8E517DE7D66F303B20869DB7 /* Pods-Wanpo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		969DDA09159C0D6B986F35A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE248CAEAE8BFF57B942BAEE /* Pods_Wanpo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F753AE0C21C49D7500D0D6BC = {
 			isa = PBXGroup;
 			children = (
 				F753AE1721C49D7500D0D6BC /* Wanpo */,
 				F753AE1621C49D7500D0D6BC /* Products */,
+				2C73F9E174E95D8FD16E0D38 /* Pods */,
+				969DDA09159C0D6B986F35A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +94,15 @@
 			children = (
 				F753AE1821C49D7500D0D6BC /* AppDelegate.swift */,
 				F753AE1A21C49D7500D0D6BC /* ViewController.swift */,
+				F753AE2C21C4B1D100D0D6BC /* SettingViewController.swift */,
+				F753AE2A21C4B05900D0D6BC /* HomeViewController.swift */,
+				F753AE2E21C4F6B300D0D6BC /* DailyViewController.swift */,
+				F7B4604C21CA645C0028803B /* Assets.xcassets */,
+				F753AE3221C4F7F100D0D6BC /* StartViewController.swift */,
+				F753AE3021C4F72500D0D6BC /* MonthlyViewController.swift */,
+				F753AE3421C4F83100D0D6BC /* PostViewController.swift */,
+				F753AE3621C4F8C600D0D6BC /* FinishViewController.swift */,
 				F753AE1C21C49D7500D0D6BC /* Main.storyboard */,
-				F753AE1F21C49D7600D0D6BC /* Assets.xcassets */,
 				F753AE2121C49D7600D0D6BC /* LaunchScreen.storyboard */,
 				F753AE2421C49D7600D0D6BC /* Info.plist */,
 			);
@@ -71,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F753AE2721C49D7600D0D6BC /* Build configuration list for PBXNativeTarget "Wanpo" */;
 			buildPhases = (
+				BEC19DDF53A1113CB640C52F /* [CP] Check Pods Manifest.lock */,
 				F753AE1121C49D7500D0D6BC /* Sources */,
 				F753AE1221C49D7500D0D6BC /* Frameworks */,
 				F753AE1321C49D7500D0D6BC /* Resources */,
+				6C9D4F9501A1526A5B0803B0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,20 +170,78 @@
 			buildActionMask = 2147483647;
 			files = (
 				F753AE2321C49D7600D0D6BC /* LaunchScreen.storyboard in Resources */,
-				F753AE2021C49D7600D0D6BC /* Assets.xcassets in Resources */,
+				F7B4604D21CA645C0028803B /* Assets.xcassets in Resources */,
 				F753AE1E21C49D7500D0D6BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6C9D4F9501A1526A5B0803B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Wanpo/Pods-Wanpo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CalculateCalendarLogic/CalculateCalendarLogic.framework",
+				"${BUILT_PRODUCTS_DIR}/ESTabBarController/ESTabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CalculateCalendarLogic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wanpo/Pods-Wanpo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEC19DDF53A1113CB640C52F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wanpo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F753AE1121C49D7500D0D6BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F753AE3521C4F83100D0D6BC /* PostViewController.swift in Sources */,
+				F753AE3121C4F72500D0D6BC /* MonthlyViewController.swift in Sources */,
+				F753AE3721C4F8C600D0D6BC /* FinishViewController.swift in Sources */,
+				F753AE3321C4F7F100D0D6BC /* StartViewController.swift in Sources */,
 				F753AE1B21C49D7500D0D6BC /* ViewController.swift in Sources */,
 				F753AE1921C49D7500D0D6BC /* AppDelegate.swift in Sources */,
+				F753AE2B21C4B05900D0D6BC /* HomeViewController.swift in Sources */,
+				F753AE2D21C4B1D100D0D6BC /* SettingViewController.swift in Sources */,
+				F753AE2F21C4F6B300D0D6BC /* DailyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,37 +385,41 @@
 		};
 		F753AE2821C49D7600D0D6BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 015CB17B8245C2990F7746CB /* Pods-Wanpo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NFX84K34RU;
 				INFOPLIST_FILE = Wanpo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.keikubota.Wanpo;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.keikubota.wanpo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		F753AE2921C49D7600D0D6BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E517DE7D66F303B20869DB7 /* Pods-Wanpo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NFX84K34RU;
 				INFOPLIST_FILE = Wanpo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.keikubota.Wanpo;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.keikubota.wanpo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -1,0 +1,24 @@
+PODS:
+  - CalculateCalendarLogic (0.2.0)
+  - ESTabBarController (0.2)
+  - FSCalendar (2.8.0)
+
+DEPENDENCIES:
+  - CalculateCalendarLogic
+  - ESTabBarController (= 0.2)
+  - FSCalendar
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CalculateCalendarLogic
+    - ESTabBarController
+    - FSCalendar
+
+SPEC CHECKSUMS:
+  CalculateCalendarLogic: d7b6bf4ed6c0c21937efb7323c67d09cdb12a1ad
+  ESTabBarController: e82ac0b135bec16fb646ac1da4ac8953fcd927da
+  FSCalendar: 3a5ed3636e2ba1b83ebebfcf0c2603105a6f5efe
+
+PODFILE CHECKSUM: 6a412ccfcfcc3502f88d894e832c66bf5f5a51a7
+
+COCOAPODS: 1.5.3
