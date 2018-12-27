@@ -44,6 +44,7 @@ class StartViewController: UIViewController, UIImagePickerControllerDelegate,UIN
         }
     }
     
+   
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -68,42 +69,42 @@ class StartViewController: UIViewController, UIImagePickerControllerDelegate,UIN
                         let steps = data!.numberOfSteps
                         var results:String = String(format:"飼い主さん: %d歩", steps.intValue)
                         results += "\n"
-                                                    // 距離 NSNumber?
-                                                    let distance = data!.distance!.doubleValue
-                                                    results += String(format: "距離: %dm", Int(distance))
-                                                    results += "\n"
+                        // 距離 NSNumber?
+                        let distance = data!.distance!.doubleValue
+                        results += String(format: "距離: %dm", Int(distance))
+                        results += "\n"
                         
-//                                                    // 期間
-//                                                    let period = data!.endDate.timeIntervalSince(data!.startDate)
-//                                                    // スピード
-//                                                    let speed = distance / period
-//                                                    results += String(format: "speed: %f", speed)
-//                                                    results += "\n"
-//
-//                                                    // 平均ペース NSNumber?
-//                                                    let averageActivePace = data!.averageActivePace
-//                                                    results += String(format: "averageActivePace: %f", averageActivePace!.doubleValue)
-//                                                    results += "\n"
-//
-//                                                    // ペース NSNumber?
-//                                                    let currentPace = data!.currentPace
-//                                                    results += String(format: "currentPace: %f", currentPace!.doubleValue)
-//                                                    results += "\n"
-//
-//                                                    // リズム steps/second NSNumber?
-//                                                    let currentCadence = data!.currentCadence
-//                                                    results += String(format: "currentCadence: %f", currentCadence!.doubleValue)
-//                                                    results += "\n"
-//
-//                                                    // 昇ったフロアの数 NSNumber?
-//                                                    let floorsAscended = data!.floorsAscended
-//                                                    results += String(format: "floorsAscended: %d", floorsAscended!.intValue)
-//                                                    results += "\n"
-//
-//                                                    // 降りたフロアの数 NSNumber?
-//                                                    let floorsDescended = data!.floorsDescended
-//                                                    results += String(format: "floorsDescended: %d", floorsDescended!.intValue)
-//                                                    results += "\n"
+                        //                                                    // 期間
+                        //                                                    let period = data!.endDate.timeIntervalSince(data!.startDate)
+                        //                                                    // スピード
+                        //                                                    let speed = distance / period
+                        //                                                    results += String(format: "speed: %f", speed)
+                        //                                                    results += "\n"
+                        //
+                        //                                                    // 平均ペース NSNumber?
+                        //                                                    let averageActivePace = data!.averageActivePace
+                        //                                                    results += String(format: "averageActivePace: %f", averageActivePace!.doubleValue)
+                        //                                                    results += "\n"
+                        //
+                        //                                                    // ペース NSNumber?
+                        //                                                    let currentPace = data!.currentPace
+                        //                                                    results += String(format: "currentPace: %f", currentPace!.doubleValue)
+                        //                                                    results += "\n"
+                        //
+                        //                                                    // リズム steps/second NSNumber?
+                        //                                                    let currentCadence = data!.currentCadence
+                        //                                                    results += String(format: "currentCadence: %f", currentCadence!.doubleValue)
+                        //                                                    results += "\n"
+                        //
+                        //                                                    // 昇ったフロアの数 NSNumber?
+                        //                                                    let floorsAscended = data!.floorsAscended
+                        //                                                    results += String(format: "floorsAscended: %d", floorsAscended!.intValue)
+                        //                                                    results += "\n"
+                        //
+                        //                                                    // 降りたフロアの数 NSNumber?
+                        //                                                    let floorsDescended = data!.floorsDescended
+                        //                                                    results += String(format: "floorsDescended: %d", floorsDescended!.intValue)
+                        //                                                    results += "\n"
                         
                         // ライン数
                         self.stepCountLabel.numberOfLines = 10

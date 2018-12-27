@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		E22D14433042B31582F13D40 /* Pods_Wanpo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE248CAEAE8BFF57B942BAEE /* Pods_Wanpo.framework */; };
+		F71065CF21D3366A001C7503 /* DogBreedLeg.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71065CE21D3366A001C7503 /* DogBreedLeg.swift */; };
+		F72CEF3321D1C6CE00FB2465 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72CEF3221D1C6CE00FB2465 /* EditViewController.swift */; };
+		F72CEF3521D20D7400FB2465 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72CEF3421D20D7400FB2465 /* SettingViewController.swift */; };
+		F72CEF3721D2150200FB2465 /* DbInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72CEF3621D2150200FB2465 /* DbInfo.swift */; };
 		F753AE1921C49D7500D0D6BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F753AE1821C49D7500D0D6BC /* AppDelegate.swift */; };
 		F753AE1B21C49D7500D0D6BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F753AE1A21C49D7500D0D6BC /* ViewController.swift */; };
 		F753AE1E21C49D7500D0D6BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F753AE1C21C49D7500D0D6BC /* Main.storyboard */; };
 		F753AE2321C49D7600D0D6BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F753AE2121C49D7600D0D6BC /* LaunchScreen.storyboard */; };
 		F753AE2B21C4B05900D0D6BC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F753AE2A21C4B05900D0D6BC /* HomeViewController.swift */; };
-		F753AE2D21C4B1D100D0D6BC /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F753AE2C21C4B1D100D0D6BC /* SettingViewController.swift */; };
+		F753AE2D21C4B1D100D0D6BC /* oriSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F753AE2C21C4B1D100D0D6BC /* oriSettingViewController.swift */; };
 		F753AE2F21C4F6B300D0D6BC /* DailyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F753AE2E21C4F6B300D0D6BC /* DailyViewController.swift */; };
 		F753AE3121C4F72500D0D6BC /* MonthlyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F753AE3021C4F72500D0D6BC /* MonthlyViewController.swift */; };
 		F753AE3321C4F7F100D0D6BC /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F753AE3221C4F7F100D0D6BC /* StartViewController.swift */; };
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		015CB17B8245C2990F7746CB /* Pods-Wanpo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wanpo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wanpo/Pods-Wanpo.debug.xcconfig"; sourceTree = "<group>"; };
 		8E517DE7D66F303B20869DB7 /* Pods-Wanpo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wanpo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wanpo/Pods-Wanpo.release.xcconfig"; sourceTree = "<group>"; };
+		F71065CE21D3366A001C7503 /* DogBreedLeg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogBreedLeg.swift; sourceTree = "<group>"; };
+		F72CEF3221D1C6CE00FB2465 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		F72CEF3421D20D7400FB2465 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		F72CEF3621D2150200FB2465 /* DbInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DbInfo.swift; sourceTree = "<group>"; };
 		F753AE1521C49D7500D0D6BC /* Wanpo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wanpo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F753AE1821C49D7500D0D6BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F753AE1A21C49D7500D0D6BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -32,7 +40,7 @@
 		F753AE2221C49D7600D0D6BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F753AE2421C49D7600D0D6BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F753AE2A21C4B05900D0D6BC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		F753AE2C21C4B1D100D0D6BC /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		F753AE2C21C4B1D100D0D6BC /* oriSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oriSettingViewController.swift; sourceTree = "<group>"; };
 		F753AE2E21C4F6B300D0D6BC /* DailyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyViewController.swift; sourceTree = "<group>"; };
 		F753AE3021C4F72500D0D6BC /* MonthlyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyViewController.swift; sourceTree = "<group>"; };
 		F753AE3221C4F7F100D0D6BC /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
@@ -94,7 +102,7 @@
 			children = (
 				F753AE1821C49D7500D0D6BC /* AppDelegate.swift */,
 				F753AE1A21C49D7500D0D6BC /* ViewController.swift */,
-				F753AE2C21C4B1D100D0D6BC /* SettingViewController.swift */,
+				F753AE2C21C4B1D100D0D6BC /* oriSettingViewController.swift */,
 				F753AE2A21C4B05900D0D6BC /* HomeViewController.swift */,
 				F753AE2E21C4F6B300D0D6BC /* DailyViewController.swift */,
 				F7B4604C21CA645C0028803B /* Assets.xcassets */,
@@ -105,6 +113,10 @@
 				F753AE1C21C49D7500D0D6BC /* Main.storyboard */,
 				F753AE2121C49D7600D0D6BC /* LaunchScreen.storyboard */,
 				F753AE2421C49D7600D0D6BC /* Info.plist */,
+				F72CEF3221D1C6CE00FB2465 /* EditViewController.swift */,
+				F72CEF3421D20D7400FB2465 /* SettingViewController.swift */,
+				F72CEF3621D2150200FB2465 /* DbInfo.swift */,
+				F71065CE21D3366A001C7503 /* DogBreedLeg.swift */,
 			);
 			path = Wanpo;
 			sourceTree = "<group>";
@@ -190,6 +202,8 @@
 				"${BUILT_PRODUCTS_DIR}/CalculateCalendarLogic/CalculateCalendarLogic.framework",
 				"${BUILT_PRODUCTS_DIR}/ESTabBarController/ESTabBarController.framework",
 				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -198,6 +212,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CalculateCalendarLogic.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -233,6 +249,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F72CEF3321D1C6CE00FB2465 /* EditViewController.swift in Sources */,
+				F72CEF3721D2150200FB2465 /* DbInfo.swift in Sources */,
+				F72CEF3521D20D7400FB2465 /* SettingViewController.swift in Sources */,
 				F753AE3521C4F83100D0D6BC /* PostViewController.swift in Sources */,
 				F753AE3121C4F72500D0D6BC /* MonthlyViewController.swift in Sources */,
 				F753AE3721C4F8C600D0D6BC /* FinishViewController.swift in Sources */,
@@ -240,7 +259,8 @@
 				F753AE1B21C49D7500D0D6BC /* ViewController.swift in Sources */,
 				F753AE1921C49D7500D0D6BC /* AppDelegate.swift in Sources */,
 				F753AE2B21C4B05900D0D6BC /* HomeViewController.swift in Sources */,
-				F753AE2D21C4B1D100D0D6BC /* SettingViewController.swift in Sources */,
+				F753AE2D21C4B1D100D0D6BC /* oriSettingViewController.swift in Sources */,
+				F71065CF21D3366A001C7503 /* DogBreedLeg.swift in Sources */,
 				F753AE2F21C4F6B300D0D6BC /* DailyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

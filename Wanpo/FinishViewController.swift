@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class FinishViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     @IBOutlet weak var commentTextView: UITextView!
@@ -49,6 +50,8 @@ class FinishViewController: UIViewController, UIImagePickerControllerDelegate, U
         }
     }
 
+    
+    
     
 
 }

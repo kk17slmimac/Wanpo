@@ -2,23 +2,33 @@ PODS:
   - CalculateCalendarLogic (0.2.0)
   - ESTabBarController (0.2)
   - FSCalendar (2.8.0)
+  - Realm (3.7.4):
+    - Realm/Headers (= 3.7.4)
+  - Realm/Headers (3.7.4)
+  - RealmSwift (3.7.4):
+    - Realm (= 3.7.4)
 
 DEPENDENCIES:
   - CalculateCalendarLogic
   - ESTabBarController (= 0.2)
   - FSCalendar
+  - RealmSwift (= 3.7.4)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - CalculateCalendarLogic
     - ESTabBarController
     - FSCalendar
+    - Realm
+    - RealmSwift
 
 SPEC CHECKSUMS:
   CalculateCalendarLogic: d7b6bf4ed6c0c21937efb7323c67d09cdb12a1ad
   ESTabBarController: e82ac0b135bec16fb646ac1da4ac8953fcd927da
   FSCalendar: 3a5ed3636e2ba1b83ebebfcf0c2603105a6f5efe
+  Realm: a469bb59e33f9926102ccaea4349822c53b9117e
+  RealmSwift: a45861b21c180f5cf0f122144b9759fa8dde3e9e
 
-PODFILE CHECKSUM: 6a412ccfcfcc3502f88d894e832c66bf5f5a51a7
+PODFILE CHECKSUM: c9487d7dc26f7b00bff89e70ab7b96ee85b1bd2f
 
 COCOAPODS: 1.5.3

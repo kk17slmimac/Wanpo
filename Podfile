@@ -9,7 +9,7 @@ target 'Wanpo' do
   pod 'ESTabBarController','0.2'
   pod 'FSCalendar'
   pod 'CalculateCalendarLogic' 
-
+  pod 'RealmSwift', '3.7.4'
 
 
 end
